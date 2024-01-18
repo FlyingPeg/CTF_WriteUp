@@ -42,5 +42,7 @@ Ta sẽ tìm thấy đáp án: ![](/Images/5.jpg)
 Ta sẽ tìm thấy đáp án: ![](/Images/6.jpg)
 
 ### **Question 8: Submit the MITRE technique ID used by the sample for Execution [Hint: Online sandbox platforms can help!] (Format: TXXXX)**
-
+Bởi vì công đoạn thực thi mã của lỗi này là sử dụng `cmd.exe`, ta sẽ tìm kiếm từ khóa trên MITRE ATT&CK liên quan đến `cmd execution`.
+Đáp án: ![](/Images/7.jpg)
 ### **Question 9: Submit the CVE associated with the vulnerability that is being exploited (Format: CVE-XXXX-XXXXX)**
+Trên VirusTotal cũng đã có cung cấp CVE của lỗi này. ![](/Images/8.jpg)
