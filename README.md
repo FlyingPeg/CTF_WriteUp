@@ -28,7 +28,7 @@ Truy cập vào trang Virustotal và tìm kiếm bằng chuỗi hash mới tìm 
 Để có thể phân tích tiếp file này, ta sẽ cần chuyển dạng file sang XML bằng cách thay đổi đuôi `.doc` thành `.zip`, sau đó giải nén, sẽ ra một thư mục chứa các thành phần của file doc này dưới dạng XML. 
 Nhờ vào dấu hiệu nhận biết là có dấu "!" ở cuối dòng, ta tìm ra được URL được sử dụng trong mẫu này: ![](/Images/3.jpg)
 ### **Question 4: What is the name of the XML file that is storing the extracted URL? (Format: file.name.ext)**
-
+File đính URL ở câu 3 chính là đáp án. ![](/Images/4.jpg)
 ### **Question 5: The extracted URL accesses a HTML file that triggers the vulnerability to execute a malicious payload. According to the HTML processing functions, any files with fewer than <Number> bytes would not invoke the payload. Submit the <Number> (Format: Number of Bytes)**
 
 ### **Question 6: After execution, the sample will try to kill a process if it is already running. What is the name of this process? (Format: filename.ext)**
