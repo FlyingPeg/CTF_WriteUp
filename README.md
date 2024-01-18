@@ -26,7 +26,7 @@ Sử dụng hàm `Get-FileHash` có trong Powershell của Windows: ![](/Images/
 Truy cập vào trang Virustotal và tìm kiếm bằng chuỗi hash mới tìm được: ![](/Images/2.jpg)
 ### **Question 3: Extract the URL that is used within the sample and submit it (Format: https://x.domain.tld/path/to/something)**
 Để có thể phân tích tiếp file này, ta sẽ cần chuyển dạng file sang XML bằng cách thay đổi đuôi `.doc` thành `.zip`, sau đó giải nén, sẽ ra một thư mục chứa các thành phần của file doc này dưới dạng XML. 
-Nhờ vào dấu hiệu nhận biết là có dấu "!" ở cuối dòng, ta tìm ra được URL được sử dụng trong mẫu này: 
+Nhờ vào dấu hiệu nhận biết là có dấu "!" ở cuối dòng, ta tìm ra được URL được sử dụng trong mẫu này: ![](/Images/3.jpg)
 ### **Question 4: What is the name of the XML file that is storing the extracted URL? (Format: file.name.ext)**
 
 ### **Question 5: The extracted URL accesses a HTML file that triggers the vulnerability to execute a malicious payload. According to the HTML processing functions, any files with fewer than <Number> bytes would not invoke the payload. Submit the <Number> (Format: Number of Bytes)**
