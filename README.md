@@ -18,5 +18,6 @@
 `Lưu ý: sử dụng máy ảo và tắt Windows Defender của máy ảo đó để có thể thực thi và phân tích file.`
 ## **2.Quá trình**
 ### **Question 1: What is the SHA1 hash value of the sample? (Format: SHA1Hash)**
-
-Sử dụng hàm `Get-Hash` có trong Powershell của Windows
+Sử dụng hàm `Get-FileHash` có trong Powershell của Windows: ![](/Images/1.jpg)
+### **Question 2: According to VirusTotal, what is the full filetype of the provided sample? (Format: X X X X)**
+Truy cập vào trang Virustotal và tìm kiếm bằng chuỗi hash mới tìm được: ![](/Images/2.jpg)
