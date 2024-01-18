@@ -18,6 +18,7 @@
 File `.doc` sử dụng tính năng `remote template` của Word để truy xuất tệp HTML từ máy chủ web, cách nhận biết là có dấu "!" ở cuối, sau đó sử dụng cơ chế `ms-msdt MSProtocol URI` để tải mã và thực thi một số lệnh Shell.
 
 Lợi dụng công cụ Microsoft Support Diagnostic Tool (MSDT) - một công cụ cho phép các đại lý hỗ trợ kỹ thuật của Microsoft phân tích dữ liệu chẩn đoán từ xa cho mục đích khắc phục sự cố, tạo ra tiến trình con cmd.exe để thực thi mã độc.
+
 `Lưu ý: sử dụng máy ảo và tắt Windows Defender của máy ảo đó để có thể thực thi và phân tích file.`
 ## **2. Quá trình**
 ### **Question 1: What is the SHA1 hash value of the sample? (Format: SHA1Hash)**
