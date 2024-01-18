@@ -30,10 +30,15 @@ Nhờ vào dấu hiệu nhận biết là có dấu "!" ở cuối dòng, ta tì
 ### **Question 4: What is the name of the XML file that is storing the extracted URL? (Format: file.name.ext)**
 File đính URL ở câu 3 chính là đáp án. ![](/Images/4.jpg)
 ### **Question 5: The extracted URL accesses a HTML file that triggers the vulnerability to execute a malicious payload. According to the HTML processing functions, any files with fewer than <Number> bytes would not invoke the payload. Submit the <Number> (Format: Number of Bytes)**
-
+Tạm thời chưa giải được câu này.
 ### **Question 6: After execution, the sample will try to kill a process if it is already running. What is the name of this process? (Format: filename.ext)**
+Bởi vì tên miền của file này đã bị gỡ bỏ khỏi internet nên ta sẽ dựa vào write up về lỗi Follina của link sau: https://www.huntress.com/blog/microsoft-office-remote-code-execution-follina-msdt-bug
 
+Ta sẽ tìm thấy đáp án: ![](/Images/5.jpg)
 ### **Question 7: You were asked to write a process-based detection rule using Windows Event ID 4688. What would be the ProcessName and ParentProcessname used in this detection rule? [Hint: OSINT time!] (Format: ProcessName, ParentProcessName)**
+Ở một Writeup khác sẽ cung cấp cho ta biết rằng Follina sẽ tạo ra process cha và process con cụ thể. Đường link như sau: https://logrhythm.com/blog/detecting-follina-cve-2022-30190-microsoft-office-zero-day-exploit/
+
+Ta sẽ tìm thấy đáp án: ![](/Images/6.jpg)
 
 ### **Question 8: Submit the MITRE technique ID used by the sample for Execution [Hint: Online sandbox platforms can help!] (Format: TXXXX)**
 
