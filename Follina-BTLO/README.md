@@ -1,6 +1,15 @@
 # Follina Writeup BlueTeamLabsOnline
 ## **1. Giới thiệu challenge**
+### **Ngữ cảnh**
+- Vào một buổi tối thứ Sáu nào đó, khi đang hưởng thụ một ngày cuối tuần bình yên thì team của bạn thông báo về một lỗ hổng RCE mới đang bị khai thác ở trên internet. Bạn được giao nhiệm vụ phân tích và nghiên cứu mẫu để thu thập thông tin cho nhóm nhằm giảm thiểu thiệt hại cho hệ thống của công ty.
+
 Đề bài cung cấp một file zip chứa mã độc để người chơi có thể tải về và phân tích, cùng với 9 câu hỏi liên quan:
+
+**IOC:**
+- `Filename`: 43eecf22e8f914d44df3da16c23dcc2e076a8753.zip
+- `SHA1`: 06727FFDA60359236A8029E0B3E8A0FD11C23313
+
+**Câu hỏi:**
 - `Câu hỏi 1` Giá trị SHA1 của mẫu này là gì?
 - `Câu hỏi 2` Theo VirusTotal, filetype đầy đủ của mẫu này là gì?
 - `Câu hỏi 3` Tìm ra URL chính nhằm gửi thông tin lên server được sử dụng trong mẫu này.
