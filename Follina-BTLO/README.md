@@ -22,22 +22,23 @@ Sử dụng hàm `Get-FileHash` có trong Powershell của Windows: ![](/Follina
 ### **Câu hỏi 2: Theo VirusTotal, filetype đầy đủ của mẫu này là gì?**
 Truy cập vào trang Virustotal và tìm kiếm bằng chuỗi hash mới tìm được: ![](/Follina-BTLO/Images/2.jpg)
 ### **Câu hỏi 3: Tìm ra URL chính nhằm gửi thông tin lên server được sử dụng trong mẫu này.**
-Để có thể phân tích tiếp file này, ta sẽ cần chuyển dạng file sang XML bằng cách thay đổi đuôi `.doc` thành `.zip`, sau đó giải nén, sẽ ra một thư mục chứa các thành phần của file doc này dưới dạng XML. 
+Để có thể phân tích tiếp file này, hiện tại là định dạng `.doc`, không thể tìm được thêm thông tin gì khác, ta sẽ cần chuyển dạng file sang XML bằng cách thay đổi đuôi `.doc` thành `.zip`, sau đó giải nén, sẽ ra một thư mục chứa các thành phần của file doc này dưới dạng XML. 
 Nhờ vào dấu hiệu nhận biết là có dấu "!" ở cuối dòng, ta tìm ra được URL được sử dụng trong mẫu này: ![](/Follina-BTLO/Images/3.jpg)
 ### **Câu hỏi 4: Tên của tệp XML chứa URL của câu 3 là gì?**
 File đính URL ở câu 3 chính là đáp án. ![](/Follina-BTLO/Images/4.jpg)
 ### **Câu hỏi 5: URL được trích xuất truy cập vào tệp HTML kích hoạt lỗ hổng để thực thi payload độc hại. Theo các chức năng xử lý HTML, bất kỳ tệp nào có ít hơn số byte sẽ không gọi payload. Tìm số byte này.**
 Bởi vì tên miền của file này đã bị gỡ bỏ khỏi internet và không có cách nào truy cập được file `.html` này nên ta sẽ dựa vào write up về lỗi Follina của link sau: hxxps[://]www[.]huntress[.]com/blog/microsoft-office-remote-code-execution-follina-msdt-bug
+
 Đáp án: 
 
 ![](/Follina-BTLO/Images/9.jpg)
 ### **Câu hỏi 6: Sau khi thực thi thì mẫu sẽ cố gắng xóa một tiến trình nếu nó đang chạy. Hãy tìm tên tiến trình đó.**
 
-Cũng ở link writeup trên, ta sẽ tìm thấy đáp án: ![](/Follina-BTLO/Images/5.jpg)
+Cũng ở link writeup trên, ta sẽ tìm thấy một đoạn mã cung cấp thông tin về việc `kill` một tiến trình, đó chính là đáp án: ![](/Follina-BTLO/Images/5.jpg)
 ### **Câu hỏi 7: Chúng ta được giao công việc viết một quy tắc dựa trên tiến trình (process-based) nhằm phát hiện loại lỗ hổng này sử dụng Windows Event ID 4688. Vậy ProcessName và ParentProcessName được sử dụng trong quy tắc này là gì?**
 Ở một Writeup khác sẽ cung cấp cho ta biết rằng Follina sẽ tạo ra process cha và process con cụ thể. Đường link như sau: hxxps[://]logrhythm[.]com/blog/detecting-follina-cve-2022-30190-microsoft-office-zero-day-exploit/
 
-Ta sẽ tìm thấy đáp án: ![](/Follina-BTLO/Images/6.jpg)
+Đáp án: ![](/Follina-BTLO/Images/6.jpg)
 
 ### **Câu hỏi 8: Tìm ID kĩ thuật MITRE được sử dụng trong giai đoạn thực thi mã độc.**
 Bởi vì công đoạn thực thi mã của lỗi này là sử dụng `cmd.exe`, ta sẽ tìm kiếm từ khóa trên MITRE ATT&CK liên quan đến `cmd execution`.
