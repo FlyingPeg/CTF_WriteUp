@@ -1,4 +1,4 @@
-# Follina-Write-Up---BlueTeamLabsOnline
+# Follina Writeup BlueTeamLabsOnline
 ## **1. Giới thiệu challenge**
 **Ngữ cảnh**
 
@@ -48,3 +48,6 @@ Bởi vì công đoạn thực thi mã của lỗi này là sử dụng `cmd.exe
 Đáp án: ![](/Images/7.jpg)
 ### **Question 9: Submit the CVE associated with the vulnerability that is being exploited (Format: CVE-XXXX-XXXXX)**
 Trên VirusTotal cũng đã có cung cấp CVE của lỗi này. ![](/Images/8.jpg)
+## **3. Tài liệu tham khảo**
+- https://www.huntress.com/blog/microsoft-office-remote-code-execution-follina-msdt-bug
+- https://logrhythm.com/blog/detecting-follina-cve-2022-30190-microsoft-office-zero-day-exploit/
