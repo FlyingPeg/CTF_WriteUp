@@ -33,7 +33,9 @@ File đính URL ở câu 3 chính là đáp án. ![](/Images/4.jpg)
 ### **Question 5: The extracted URL accesses a HTML file that triggers the vulnerability to execute a malicious payload. According to the HTML processing functions, any files with fewer than <Number> bytes would not invoke the payload. Submit the <Number> (Format: Number of Bytes)**
 Bởi vì tên miền của file này đã bị gỡ bỏ khỏi internet và không có cách nào truy cập được file `.html` này nên ta sẽ dựa vào write up về lỗi Follina của link sau: https://www.huntress.com/blog/microsoft-office-remote-code-execution-follina-msdt-bug
 
-Đáp án: ![](/Images/9.jpg)
+Đáp án: 
+
+![](/Images/9.jpg)
 ### **Question 6: After execution, the sample will try to kill a process if it is already running. What is the name of this process? (Format: filename.ext)**
 
 Cũng ở link writeup trên, ta sẽ tìm thấy đáp án: ![](/Images/5.jpg)
@@ -45,7 +47,9 @@ Ta sẽ tìm thấy đáp án: ![](/Images/6.jpg)
 ### **Question 8: Submit the MITRE technique ID used by the sample for Execution [Hint: Online sandbox platforms can help!] (Format: TXXXX)**
 Bởi vì công đoạn thực thi mã của lỗi này là sử dụng `cmd.exe`, ta sẽ tìm kiếm từ khóa trên MITRE ATT&CK liên quan đến `cmd execution`.
 
-Đáp án: ![](/Images/7.jpg)
+Đáp án: 
+
+![](/Images/7.jpg)
 ### **Question 9: Submit the CVE associated with the vulnerability that is being exploited (Format: CVE-XXXX-XXXXX)**
 Trên VirusTotal cũng đã có cung cấp CVE của lỗi này. ![](/Images/8.jpg)
 ## **3. Tài liệu tham khảo**
