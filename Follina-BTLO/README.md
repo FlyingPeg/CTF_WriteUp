@@ -58,5 +58,5 @@ Bởi vì công đoạn thực thi mã của lỗi này là sử dụng `cmd.exe
 ### **Câu hỏi 9: CVE của lỗ hổng này là gì?**
 Trên VirusTotal cũng đã có cung cấp CVE của lỗi này. ![](/Follina-BTLO/Images/8.jpg)
 ## **3. Tài liệu tham khảo**
-- hxxps[://]www[.]huntress[.]com/blog/microsoft-office-remote-code-execution-follina-msdt-bug
-- hxxps[://]logrhythm[.]com/blog/detecting-follina-cve-2022-30190-microsoft-office-zero-day-exploit/
+[1] hxxps[://]www[.]huntress[.]com/blog/microsoft-office-remote-code-execution-follina-msdt-bug
+[2] hxxps[://]logrhythm[.]com/blog/detecting-follina-cve-2022-30190-microsoft-office-zero-day-exploit/
